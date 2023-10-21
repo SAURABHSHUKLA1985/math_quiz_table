@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('math-background.jpg'); /* Replace 'math-background.jpg' with your image file */
+    background-repeat: repeat; /* Repeat the image to cover the entire background */
+    background-color: #3498db; /* Fallback background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background for better visibility */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+
+h1 {
+    font-size: 24px;
+    color: #3498db;
+}
+
+.question {
+    margin: 20px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.answer input {
+    padding: 10px;
+    width: 60px;
+    font-size: 18px;
+}
+
+.score {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.timer {
+    font-size: 20px;
+    color: #333;
+}
